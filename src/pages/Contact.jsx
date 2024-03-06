@@ -44,18 +44,29 @@ function Contact() {
           <a href="">Home</a>
         </li>
         <LiaGreaterThanSolid />
-        <li>
-          Contact-us
-        </li>
+        <li>Contact-us</li>
       </ul>
       <div className="custom-row">
-        <div className="get-in-touch col-md-5 p-5">
-          <h1>Get in touch</h1>
-          <p>
-            We are eager to hear from you and assist with your event needs.
-            Please feel free to get in touch with us through any of the
-            following methods.
-          </p>
+        <div className="get-in-touch col-md-5">
+          <div className="bg-color-gray">
+            <h1>Get in touch</h1>
+            <p>
+              We are eager to hear from you and assist with your event needs.
+              Please feel free to get in touch with us through any of the
+              following methods.
+            </p>
+            <div className="get-in-touch_details">
+              <span></span>
+              <div>
+                <h4>Phone</h4>
+                <p>+9999999999</p>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>contact@ssss.com</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="lets-connect col-md-7 p-5">
           <h1>Let's Connect</h1>

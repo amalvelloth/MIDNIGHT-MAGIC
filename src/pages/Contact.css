@@ -60,8 +60,9 @@
     flex-wrap: wrap;
   }
 
-  .get-in-touch{
-    background-color: rgb(63, 63, 63);
+  .get-in-touch .bg-color-gray {
+    background-color: #212121;
+    padding: 3rem 5rem 3rem 3.8rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
   }
@@ -69,6 +70,11 @@
   .get-in-touch h1{
     font-family: 'roboto';
     font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .get-in-touch p {
+    margin-bottom: 2rem;
   }
 
   .lets-connect h1 {
