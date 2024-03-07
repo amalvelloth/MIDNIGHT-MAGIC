@@ -7,9 +7,10 @@ import nightPartyImage3 from "../assets/night_party_event3.jpg";
 import "./Contact.css";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 
+
 function Contact() {
   return (
-    <div className="contact-container w-100">
+    <div className="contact-container">
       <div className="hero-image">
         <Carousel>
           <Carousel.Item>
@@ -41,35 +42,42 @@ function Contact() {
 
       <ul>
         <li>
-          <a href="">Home</a>
+          <a href="/">Home</a>
         </li>
-        <LiaGreaterThanSolid />
+        <li>
+          <LiaGreaterThanSolid />
+        </li>
         <li>Contact-us</li>
       </ul>
+
       <div className="custom-row">
         <div className="get-in-touch col-md-5">
           <div className="bg-color-gray">
-            <h1>Get in touch</h1>
+            <h2>Get in touch</h2>
             <p>
               We are eager to hear from you and assist with your event needs.
               Please feel free to get in touch with us through any of the
               following methods.
             </p>
             <div className="get-in-touch_details">
-              <span></span>
-              <div>
-                <h4>Phone</h4>
-                <p>+9999999999</p>
+              <div className="get-in-touch_details-icon d-flex align-items-center">
+                <div>
+                  <h4>Phone</h4>
+                  <p>+9999999999</p>
+                </div>
               </div>
-              <div>
-                <h4>Email</h4>
-                <p>contact@ssss.com</p>
+              <div className="get-in-touch_details-icon">
+                <div>
+                  <h4>Email</h4>
+                  <p>contact@ssss.com</p>
+                </div>
               </div>
             </div>
+            
           </div>
         </div>
         <div className="lets-connect col-md-7 p-5">
-          <h1>Let's Connect</h1>
+          <h2>Let's Connect</h2>
         </div>
       </div>
     </div>

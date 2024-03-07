@@ -16,79 +16,142 @@
 }
 
 .title-container {
-    position: absolute;
-    bottom: 50px;
-    left: 55px;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-  }
+  position: absolute;
+  bottom: 50px;
+  left: 55px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
 
-  .title-container h1 {
-    font-family: 'roboto';
-    font-size: 55px;
-    font-weight: 600;
-  }
+.title-container h1 {
+  font-family: "roboto";
+  font-size: 5vw;
+  font-weight: 600;
+}
 
-  .contact-container ul{
-    display: flex;
-    align-items: center;
-    padding: 20px 0 0px 55px;
-  }
+.contact-container ul {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0px 55px;
+}
 
-  .contact-container ul li {
-    list-style: none;
-  }
+.contact-container ul li {
+  list-style: none;
+}
 
-  .contact-container ul li a{
-    text-decoration: none;
-    color: white;
-    transition: color 0.5s ease;
-    padding-right: 20px;
-  }
-  .contact-container ul li a:hover,
-  .contact-container ul li a:hover:focus{
-    color: aquamarine;
-  }
-  .contact-container ul li:last-child {
-    padding-left: 20px;
-    color: aquamarine;
-  }
+.contact-container ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s ease;
+  padding-right: 20px;
+}
+.contact-container ul li a:hover,
+.contact-container ul li a:hover:focus {
+  color: aquamarine;
+}
+.contact-container ul li:last-child {
+  padding-left: 20px;
+  color: aquamarine;
+}
 
-  .custom-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .get-in-touch .bg-color-gray {
-    background-color: #212121;
-    padding: 3rem 5rem 3rem 3.8rem;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
+.get-in-touch .bg-color-gray {
+  background-color: #212121;
+  padding: 3rem 5rem 3rem 3.8rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
 
-  .get-in-touch h1{
-    font-family: 'roboto';
-    font-weight: 300;
-    margin-bottom: 2rem;
-  }
+.get-in-touch h1 {
+  font-family: "roboto";
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
 
-  .get-in-touch p {
-    margin-bottom: 2rem;
-  }
+.get-in-touch p {
+  margin-bottom: 2rem;
+}
 
-  .lets-connect h1 {
-    position: relative; 
-  }
-  
-  .lets-connect h1::after {
-    content: '';
-    position: absolute; 
-    bottom: -8px; 
-    left: 0; 
-    width: 140px;
-    height: 5px;
-    background-color: aquamarine; 
-    border-radius: 10px; 
-  }
-  
+.get-in-touch_details p{
+  margin: 0;
+}
+
+.socials-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.social {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgb(194, 194, 194);
+}
+.twitter:hover {
+  background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+}
+.facebook:hover {
+  background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+}
+.google-plus:hover {
+  background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
+}
+.instagram:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.social svg {
+  fill: white;
+  height: auto;
+  width: 50%;
+  height: 50%;
+}
+
+
+.lets-connect h1 {
+  position: relative;
+}
+
+.lets-connect h1::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 140px;
+  height: 5px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
