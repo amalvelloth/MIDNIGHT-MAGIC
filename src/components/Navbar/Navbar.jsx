@@ -3,16 +3,15 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/MIDNIGHT MAGIC LOGO-01.png";
 
-
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-      <div class="container-fluid px-md-5">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid px-md-5 px-sm-5">
         <a class="navbar-brand" href="#">
-          <img style={{width:'80px'}} src={logo} alt="" />
+          <img className="px-1" style={{ width: "80px" }} src={logo} alt="" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler" style={{border: 'none', outline: 'none', padding:'0%', boxShadow: 'none'}}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -20,7 +19,20 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="white"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+            style={{padding: '0px'}}
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            ></path>
+          </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
@@ -48,7 +60,6 @@ function Navbar() {
         </div>
       </div>
     </nav>
-    
   );
 }
 
