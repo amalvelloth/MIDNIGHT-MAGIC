@@ -63,70 +63,70 @@ function Contact() {
                 <div className="get-in-touch_details-icon d-flex align-items-center">
                   <div>
                     <h4>Phone</h4>
-                    <p>+9999999999</p>
+                    <p>8281578305, 8304930045</p>
                   </div>
                 </div>
                 <div className="get-in-touch_details-icon">
                   <div>
                     <h4>Email</h4>
-                    <p>contact@ssss.com</p>
+                    <p>info@midnightmagic.co.in</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lets-connect col-md-7 p-5">
-            <h2>Let's Connect</h2>
-            <div class="container mt-5">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="firstName">First Name</label>
-                    <input type="text" class="form-control border-bottom-white" id="firstName" placeholder="Enter First Name"/>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control border-bottom-white" id="lastName" placeholder="Enter Last Name"/>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control border-bottom-white" id="email" placeholder="Enter Email"/>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="country">Country</label>
-                    <select id="country" class="form-control border-bottom-white">
-                      <option selected>Choose...</option>
-                      <option>USA</option>
-                      <option>Canada</option>
-                      <option>UK</option>
-                      <option>India</option>
-                      <option>Other</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="address">Address</label>
-                  <input type="text" class="form-control border-bottom-white" id="address" placeholder="Enter Address"/>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control border-bottom-white" id="message" rows="4" placeholder="Enter Message"></textarea>
-                </div>
-              </div>
-            </div>
+          <div className="lets-connect col-md-7 col-sm-12 col px-3">
+            <form class="form">
+              <h2>Let's Connect</h2>
+              <div class="flex">
+                <label className="flex-item">
+                  <input class="input" type="text" placeholder="" required="" />
+                  <span>Firstname</span>
+                </label>
 
+                <label className="flex-item">
+                  <input class="input" type="text" placeholder="" required="" />
+                  <span>Lastname</span>
+                </label>
+              </div>
+              <div class="flex">
+                <label className="flex-item">
+                  <input class="input" type="text" placeholder="" required="" />
+                  <span>Email</span>
+                </label>
+
+                <label className="flex-item">
+                  <select class="input" required>
+                    <option value="" disabled selected>
+                      Select your country
+                    </option>
+                    <option value="USA">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Canada">India</option>
+                  </select>
+
+                  <span>Country</span>
+                </label>
+              </div>
+
+              <label>
+                <input class="input" type="email" placeholder="" required="" />
+                <span>Address</span>
+              </label>
+
+              <label>
+                <input
+                  class="input"
+                  type="password"
+                  placeholder=""
+                  required=""
+                />
+                <span>Messege</span>
+              </label>
+
+              <button class="messege">Send Messege</button>
+            </form>
           </div>
         </div>
       </section>
