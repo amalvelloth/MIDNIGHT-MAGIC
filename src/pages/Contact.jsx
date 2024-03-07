@@ -7,7 +7,6 @@ import nightPartyImage3 from "../assets/night_party_event3.jpg";
 import "./Contact.css";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 
-
 function Contact() {
   return (
     <div className="contact-container">
@@ -50,36 +49,87 @@ function Contact() {
         <li>Contact-us</li>
       </ul>
 
-      <div className="custom-row">
-        <div className="get-in-touch col-md-5">
-          <div className="bg-color-gray">
-            <h2>Get in touch</h2>
-            <p>
-              We are eager to hear from you and assist with your event needs.
-              Please feel free to get in touch with us through any of the
-              following methods.
-            </p>
-            <div className="get-in-touch_details">
-              <div className="get-in-touch_details-icon d-flex align-items-center">
-                <div>
-                  <h4>Phone</h4>
-                  <p>+9999999999</p>
+      <section>
+        <div className="custom-row">
+          <div className="get-in-touch col-md-5">
+            <div className="bg-color-gray">
+              <h2>Get in touch</h2>
+              <p>
+                We are eager to hear from you and assist with your event needs.
+                Please feel free to get in touch with us through any of the
+                following methods.
+              </p>
+              <div className="get-in-touch_details">
+                <div className="get-in-touch_details-icon d-flex align-items-center">
+                  <div>
+                    <h4>Phone</h4>
+                    <p>+9999999999</p>
+                  </div>
                 </div>
-              </div>
-              <div className="get-in-touch_details-icon">
-                <div>
-                  <h4>Email</h4>
-                  <p>contact@ssss.com</p>
+                <div className="get-in-touch_details-icon">
+                  <div>
+                    <h4>Email</h4>
+                    <p>contact@ssss.com</p>
+                  </div>
                 </div>
               </div>
             </div>
-            
+          </div>
+          <div className="lets-connect col-md-7 p-5">
+            <h2>Let's Connect</h2>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control border-bottom-white" id="firstName" placeholder="Enter First Name"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control border-bottom-white" id="lastName" placeholder="Enter Last Name"/>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control border-bottom-white" id="email" placeholder="Enter Email"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" class="form-control border-bottom-white">
+                      <option selected>Choose...</option>
+                      <option>USA</option>
+                      <option>Canada</option>
+                      <option>UK</option>
+                      <option>India</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control border-bottom-white" id="address" placeholder="Enter Address"/>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control border-bottom-white" id="message" rows="4" placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div className="lets-connect col-md-7 p-5">
-          <h2>Let's Connect</h2>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
