@@ -141,17 +141,19 @@
 }
 
 
-.lets-connect h1 {
+.lets-connect h2 {
   position: relative;
+  display: inline-block;
 }
 
-.lets-connect h1::after {
-  content: "";
+.lets-connect h2::after {
+  content: '';
   position: absolute;
   bottom: -8px;
   left: 0;
-  width: 140px;
+  width: 60%;
   height: 5px;
   background-color: aquamarine;
-  border-radius: 10px;
+  border-radius: 10px; /* Adjust the border radius as needed */
 }
+

@@ -12,18 +12,3 @@ body {
 .nav-item .nav-link{
     color: white;
 }
-
-.navbar {
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  .navbar.transparent {
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: none;
-  }
-
-  .navbar.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
