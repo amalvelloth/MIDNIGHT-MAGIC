@@ -52,7 +52,7 @@ function Contact() {
       <section>
         <div className="custom-row">
           <div className="get-in-touch col-md-5">
-            <div className="bg-color-gray">
+            <div className="bg-color-gray p-4 p-md-5 p-sm-5 ">
               <h1>Get in touch</h1>
               <p>
                 We are eager to hear from you and assist with your event needs.

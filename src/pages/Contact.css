@@ -62,7 +62,6 @@
 
 .get-in-touch .bg-color-gray {
   background-color: #212121;
-  padding: 3rem 5rem 3rem 3.8rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
@@ -97,38 +96,6 @@
   background-color: aquamarine;
   border-radius: 10px;
 }
-
-
-.form-group {
-  margin-bottom: 0;
-}
-.form-group label {
-  font-weight: bold;
-}
-
-.border-bottom-white {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid white;
-  border-radius: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -257,8 +224,8 @@
   display: inline-block;
  outline: none;
  cursor: pointer;
- border: 1px solid #fff;
- padding: 0.7rem 1.4rem;
+ border: 1px solid #f2f3f4;
+ padding: 0.6rem 1.4rem;
  margin: 0;
  font-family: inherit;
  position: relative;
@@ -268,7 +235,7 @@
  border-radius: 10px;
  overflow: hidden;
  background: aquamarine;
- color: ghostwhite;
+ color: rgb(0, 0, 0);
 }
 
 .message-btn span {
@@ -316,4 +283,7 @@
   .form {
     padding: 0;
   }
+}
+@media (max-width: 576px) {
+  
 }
