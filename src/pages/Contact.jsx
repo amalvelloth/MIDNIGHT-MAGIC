@@ -53,7 +53,7 @@ function Contact() {
         <div className="custom-row">
           <div className="get-in-touch col-md-5">
             <div className="bg-color-gray">
-              <h2>Get in touch</h2>
+              <h1>Get in touch</h1>
               <p>
                 We are eager to hear from you and assist with your event needs.
                 Please feel free to get in touch with us through any of the
@@ -77,7 +77,9 @@ function Contact() {
           </div>
           <div className="lets-connect col-md-7 col-sm-12 col px-3">
             <form class="form">
-              <h2>Let's Connect</h2>
+              <div className="d-flex mb-3">
+                <h1>Let's Connect</h1>
+              </div>
               <div class="flex">
                 <label className="flex-item">
                   <input class="input" type="text" placeholder="" required="" />
@@ -124,8 +126,12 @@ function Contact() {
                 />
                 <span>Messege</span>
               </label>
-
-              <button class="messege">Send Messege</button>
+              <div className="d-flex">
+                <button className="message-btn">
+                  {" "}
+                  <span>Send Message</span>
+                </button>
+              </div>
             </form>
           </div>
         </div>
