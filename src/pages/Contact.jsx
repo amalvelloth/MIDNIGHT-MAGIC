@@ -60,18 +60,74 @@ function Contact() {
                 following methods.
               </p>
               <div className="get-in-touch_details">
-                <div className="get-in-touch_details-icon d-flex align-items-center">
-                  <div>
-                    <h4>Phone</h4>
-                    <p>8281578305, 8304930045</p>
-                  </div>
+                <div className="get-in-touch_details-icon">
+                  <a href="tel:8281578305">
+                    <span>
+                      <svg
+                        width="15"
+                        height="22"
+                        viewBox="0 0 15 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="svg-convert svg-converted"
+                      >
+                        <path
+                          d="M14.7813 19.5098L13.1708 16.1106C12.8241 15.3843 12.3761 14.8558 11.6025 15.1781L10.0765 15.7539C8.8548 16.3298 8.24609 15.7539 7.63314 14.8859L4.88546 8.53009C4.53883 7.80384 4.7206 7.12057 5.49418 6.79827L7.62891 5.93021C8.40249 5.60361 8.2799 4.92463 7.93327 4.19838L6.1029 0.734728C5.75627 0.00847848 5.0461 -0.167712 4.27252 0.154588C2.72537 0.803485 1.44452 1.82195 0.611766 3.33032C-0.402762 5.17388 0.104502 7.73938 0.307408 8.81802C0.510313 9.89665 1.22048 11.7875 2.13778 13.7256C3.05509 15.668 3.85825 17.1935 4.5811 18.0573C5.29973 18.9211 7.02443 21.2846 9.15916 21.8132C10.9092 22.2429 12.7988 21.8819 14.3459 21.233C15.1237 20.9236 15.1237 20.2403 14.7813 19.5098Z"
+                          fill="aquamarine"
+                        ></path>
+                      </svg>
+                    </span>
+                    <div>
+                      <h4>Phone</h4>
+                      <p>8281578305, 8304930045</p>
+                    </div>
+                  </a>
                 </div>
                 <div className="get-in-touch_details-icon">
-                  <div>
-                    <h4>Email</h4>
-                    <p>info@midnightmagic.co.in</p>
-                  </div>
+                  <a href="mailto:info@midnightmagic.co.in">
+                    <span>
+                      <svg
+                        width="22"
+                        height="18"
+                        viewBox="0 0 22 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="svg-convert svg-converted"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M22 2.47985V17.064L16.6815 9.95122L15.6708 10.8166L21.0411 18H0.958879L6.32916 10.8166L5.31851 9.95122L0 17.064V2.47984L10.9994 12.6858L22 2.47985ZM21.9992 0V0.645225L10.9999 10.8512L0.000515625 0.645237V0H21.9992Z"
+                          fill="aquamarine"
+                        ></path>
+                      </svg>
+                    </span>
+                    <div>
+                      <h4>Email</h4>
+                      <p>info@midnightmagic.co.in</p>
+                    </div>
+                  </a>
                 </div>
+              </div>
+              <div className="get-in-touch_social">
+                <h6>Follow Us</h6>
+                <ul className="social_links p-0">
+                  <li className="social_links-item">
+                    <a className="social_links-link" href="">
+                      
+                    </a>
+                  </li>
+                  <li className="social_links-item">
+                    <a className="social_links-link" href="">
+                    
+                    </a>
+                  </li>
+                  <li className="social_links-item">
+                    <a className="social_links-link" href="">
+                      
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -128,7 +184,6 @@ function Contact() {
               </label>
               <div className="d-flex">
                 <button className="message-btn">
-                  {" "}
                   <span>Send Message</span>
                 </button>
               </div>

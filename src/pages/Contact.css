@@ -80,6 +80,68 @@
   margin: 0;
 }
 
+.get-in-touch_details-icon {
+  margin-bottom: 2rem;
+}
+
+.get-in-touch_details-icon a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 1.5rem;
+}
+
+.get-in-touch_details-icon a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px aquamarine solid;
+  border-radius: 100%;
+}
+
+.get-in-touch_details-icon a div :first-child {
+  margin-bottom: .357em;
+  color: aquamarine;
+  font-weight: 700;
+}
+
+.get-in-touch_details-icon a:hover span {
+  background-color: aquamarine;
+  transition: all .6s;
+}
+
+.get-in-touch_details-icon a:hover div>* {
+  color: aquamarine;
+}
+
+.get-in-touch_details-icon a:hover svg path {
+  fill: #fff;
+  transition: all .6s;
+}
+
+div {
+  display: block;
+}
+
+.social_links-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 2.8125em;
+  height: 2.8125em;
+  border-radius: 50%;
+  border: 2px solid #858688;
+  transition: all .25s ease;
+  overflow: hidden;
+}
+
+.get-in-touch_social .social_links-link {
+  border: 1px aquamarine solid;
+}
+
 .lets-connect h1 {
   position: relative;
   display: inline-block;
@@ -225,7 +287,7 @@
  outline: none;
  cursor: pointer;
  border: 1px solid #f2f3f4;
- padding: 0.6rem 1.4rem;
+ padding: 1% 2%;
  margin: 0;
  font-family: inherit;
  position: relative;
@@ -242,6 +304,8 @@
  position: relative;
  z-index: 10;
  transition: color 0.4s;
+ font-weight: 400;
+ font-size: 16px;
 }
 
 .message-btn:hover span,
@@ -285,5 +349,7 @@
   }
 }
 @media (max-width: 576px) {
-  
+  message-btn {
+
+  }
 }
