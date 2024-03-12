@@ -38,16 +38,17 @@ function Contact() {
           <h1>Contact Us</h1>
         </div>
       </div>
-
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <LiaGreaterThanSolid />
-        </li>
-        <li>Contact-us</li>
-      </ul>
+      <div className="container-s">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <LiaGreaterThanSolid />
+          </li>
+          <li>Contact-us</li>
+        </ul>
+      </div>
 
       <section>
         <div className="custom-row">
@@ -113,19 +114,13 @@ function Contact() {
                 <h6>Follow Us</h6>
                 <ul className="social_links p-0">
                   <li className="social_links-item">
-                    <a className="social_links-link" href="">
-                      
-                    </a>
+                    <a className="social_links-link" href=""></a>
                   </li>
                   <li className="social_links-item">
-                    <a className="social_links-link" href="">
-                    
-                    </a>
+                    <a className="social_links-link" href=""></a>
                   </li>
                   <li className="social_links-item">
-                    <a className="social_links-link" href="">
-                      
-                    </a>
+                    <a className="social_links-link" href=""></a>
                   </li>
                 </ul>
               </div>
