@@ -1,6 +1,20 @@
-.hero-image {
+
+
+.hero {
   position: relative;
-  max-height: 500px;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .carousel-item img {
@@ -15,20 +29,6 @@
   margin: 0 5px;
 }
 
-.title-container {
-  position: absolute;
-  bottom: 50px;
-  left: 55px;
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-}
-
-.title-container h1 {
-  font-family: "roboto";
-  font-size: 5vw;
-  font-weight: 600;
-}
 
 .contact-container ul {
   display: flex;
@@ -142,6 +142,85 @@ div {
   border: 1px aquamarine solid;
 }
 
+
+
+
+
+
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.social-card {
+  display: flex;
+  gap: 1rem;
+}
+
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
 .lets-connect h1 {
   position: relative;
   display: inline-block;
@@ -245,7 +324,7 @@ div {
 }
 
 .form label .input {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   width: 100%;
   padding: 20px 05px 05px 10px;
@@ -255,7 +334,8 @@ div {
 }
 
 .form label .input + span {
-  color: rgba(255, 255, 255, 0.5);
+  color: #00bfff;
+  font-weight: 600;
   position: absolute;
   left: 10px;
   top: 0px;
@@ -285,7 +365,7 @@ div {
   display: inline-block;
  outline: none;
  cursor: pointer;
- border: 1px solid #f2f3f4;
+ border: 1px solid #59c8c6;
  padding: 1% 2%;
  margin: 0;
  font-family: inherit;
@@ -325,7 +405,7 @@ div {
 
 .message-btn::before {
  content: "";
- background: #323232;
+ background: black;
  width: 120%;
  left: -10%;
  transform: skew(30deg);
@@ -336,19 +416,41 @@ div {
  transform: translate3d(100%, 0, 0);
 }
 
+.container-s1{
+  color: #c3ccd3;
+}
+
+.location-card{
+  border: 1px white solid;
+  border-radius: .5rem;
+  
+}
+
+.location-description h5{
+  margin: 0;
+}
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .lets-connect {
     padding: 20px 0;
   }
   .form {
     padding: 0;
   }
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .container-s2{
+    padding-top: 3rem;
+  }
 }
 @media (max-width: 576px) {
-  message-btn {
-
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  message-btn span{
+    
   }
 }
