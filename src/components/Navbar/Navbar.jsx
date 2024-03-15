@@ -24,7 +24,7 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           onClick={toggleMenu}
-          style={{ border: "none", outline:"none"}}
+          style={{ border: "none", outline: "none" }}
         >
           <HiOutlineMenuAlt3 className="navbar-icon" />
         </button>
@@ -32,9 +32,13 @@ function Navbar() {
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarNav"
         >
-          <ul className="navbar-nav ms-auto justify-content-center">
+          <ul
+            className={`navbar-nav ms-auto justify-content-center ${
+              isMenuOpen ? "nav-open" : ""
+            }`}
+          >
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/home">
+              <a className="nav-link" href="/home">
                 Home
               </a>
             </li>
@@ -49,7 +53,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <a style={{color: "aquamarine"}} className="nav-link" href="/contact">
                 Contact
               </a>
             </li>
