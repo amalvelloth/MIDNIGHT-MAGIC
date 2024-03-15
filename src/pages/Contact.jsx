@@ -7,6 +7,8 @@ import nightPartyImage3 from "../assets/night_party_event3.jpg";
 import "./Contact.css";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+
 
 function Contact() {
   return (
@@ -203,31 +205,40 @@ function Contact() {
       </section>
 
       <section className="pt-5 pb-4">
-        <div className="custom-row p-3 align-items-center">
+        <div className="custom-row align-items-center">
           <div className="container-s1 col-md-6 col-sm-12">
-            <h1>
+            <h1 className="p-3">
               Let us transform your vision into a remarkable reality. We do for
               all your event management needs, and let's create unforgettable
               moments together.
             </h1>
           </div>
+
+
           <div className="container-s2 px-4 col-md-6 col-sm-12 col">
-            <div className="location-description d-flex align-items-center mt-2">
-              <FaLocationDot/>&nbsp;&nbsp;<h5>Parippally, Kollam 691574</h5>
-            </div>
-            <div className="location-card mt-3">
-              <h1 className="text-center text-white">
-                <br />
-                <br />
-                <br/>
-                Location card here.
-                <br />
-                <br/>
-                <br />
-                <br />
-              </h1>
-            </div>
-          </div>
+  <div className="location-description d-flex align-items-center">
+    <FaLocationDot className="location-card-icon" />&nbsp;&nbsp;
+    <h5>Parippally, Kollam 691574</h5>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <FaPhoneAlt className="location-card-icon" />&nbsp;&nbsp;
+    <h5>8281578305 830493004</h5>
+  </div>
+  <div className="location-card bg-black mt-3">
+    <h1 className="text-center text-white">
+      <br/>
+      <br/>
+      <br/>
+      Location card here.
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </h1>
+  </div>
+</div>
+
+
+
         </div>
       </section>
     </div>
