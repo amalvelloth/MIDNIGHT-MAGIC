@@ -35,13 +35,13 @@ body {
     font-size: 1.3rem;
   }
   .navbar.is-open {
-    background-color: rgba(0, 0, 0, 0.8); /* Increased opacity when open */
+    background-color: rgba(0, 0, 0, 0.8);
   }
   .navbar-icon {
-    font-size: 1.7rem; /* Adjust size for smaller screens */
+    font-size: 1.7rem;
+  }
+  .navbar-toggler:focus{
+    color: transparent;
   }
 }
 
-.nav-link.active {
-  color: aquamarine; /* Change to your desired active color */
-}
