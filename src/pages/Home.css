@@ -1,12 +1,10 @@
-
 .container {
-    height: 100vh; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero {
-    text-align: center;
-  }
-  
+  height: 100vh;
+  justify-content: center;
+  align-items: center; 
+}
+
+.hero-home h1{
+  color: #c3ccd3;
+  text-align: start;
+}

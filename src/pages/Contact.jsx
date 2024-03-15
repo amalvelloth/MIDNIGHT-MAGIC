@@ -9,7 +9,6 @@ import { LiaGreaterThanSolid } from "react-icons/lia";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 function Contact() {
   return (
     <div className="contact-container">
@@ -214,31 +213,33 @@ function Contact() {
             </h1>
           </div>
 
-
           <div className="container-s2 px-4 col-md-6 col-sm-12 col">
-  <div className="location-description d-flex align-items-center">
-    <FaLocationDot className="location-card-icon" />&nbsp;&nbsp;
-    <h5>Parippally, Kollam 691574</h5>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <FaPhoneAlt className="location-card-icon" />&nbsp;&nbsp;
-    <h5>8281578305 830493004</h5>
-  </div>
-  <div className="location-card bg-black mt-3">
-    <h1 className="text-center text-white">
-      <br/>
-      <br/>
-      <br/>
-      Location card here.
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-    </h1>
-  </div>
-</div>
-
-
-
+            <div className="location-description d-flex justify-content-around align-items-center">
+              <div className="d-flex align-items-center">
+                <FaLocationDot className="location-card-icon" />
+                &nbsp;&nbsp;
+                <h5 className="fs-6">Parippally, Kollam 691574</h5>
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="d-flex align-items-center">
+                <FaPhoneAlt className="location-card-icon" />
+                &nbsp;&nbsp;
+                <h5 className="fs-6">8281578305 830493004</h5>
+              </div>
+            </div>
+            <div className="location-card bg-black mt-3">
+              <h1 className="text-center text-white">
+                <br />
+                <br />
+                <br />
+                Location card here.
+                <br />
+                <br />
+                <br />
+                <br />
+              </h1>
+            </div>
+          </div>
         </div>
       </section>
     </div>

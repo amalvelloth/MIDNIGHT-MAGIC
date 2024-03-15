@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/MIDNIGHT MAGIC LOGO-01.png";
+import logo from "../../assets/MIDNIGHT MAGIC LOGO-01-min.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 function Navbar() {
@@ -53,7 +53,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a style={{color: "aquamarine"}} className="nav-link" href="/contact">
+              <a className="nav-link" href="/contact">
                 Contact
               </a>
             </li>

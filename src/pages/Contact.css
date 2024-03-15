@@ -143,12 +143,6 @@ div {
 }
 
 
-
-
-
-
-
-/* for all social containers*/
 .socialContainer {
   width: 52px;
   height: 52px;
@@ -166,22 +160,18 @@ div {
   gap: 1rem;
 }
 
-/* instagram*/
 .containerOne:hover {
   background-color: #d62976;
   transition-duration: .3s;
 }
-/* twitter*/
 .containerTwo:hover {
   background-color: #00acee;
   transition-duration: .3s;
 }
-/* linkdin*/
 .containerThree:hover {
   background-color: #0072b1;
   transition-duration: .3s;
 }
-/* Whatsapp*/
 .containerFour:hover {
   background-color: #128C7E;
   transition-duration: .3s;
@@ -438,7 +428,7 @@ div {
 
 @media (max-width: 768px) {
   .lets-connect {
-    padding: 20px 0;
+    padding-top: 3.6rem;
   }
   .form {
     padding: 0;
@@ -449,6 +439,8 @@ div {
   .container-s2{
     padding-top: 3rem;
   }
+
+  
 }
 @media (max-width: 576px) {
   .hero-content h1 {
@@ -457,4 +449,8 @@ div {
   .message-btn {
     padding: 7px 16px;
   }
+  .location-card-icon {
+    font-size: 2rem;
+  }
+  
 }
