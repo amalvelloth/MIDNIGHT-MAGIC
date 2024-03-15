@@ -117,7 +117,7 @@
 }
 
 .get-in-touch_details-icon a:hover svg path {
-  fill: #fff;
+  fill: black;
   transition: all .6s;
 }
 
@@ -362,7 +362,7 @@ div {
 }
 
 .message-btn {
-  display: inline-block;
+ display: inline-block;
  outline: none;
  cursor: pointer;
  border: 1px solid #59c8c6;
@@ -372,7 +372,6 @@ div {
  position: relative;
  display: inline-block;
  font-weight: 600;
- font-size: 17px;
  border-radius: 10px;
  overflow: hidden;
  background: aquamarine;
@@ -450,7 +449,7 @@ div {
   .hero-content h1 {
     font-size: 2.5rem;
   }
-  message-btn span{
-    
+  .message-btn {
+    padding: 7px 16px; /* Updated padding for smaller screens */
   }
 }
