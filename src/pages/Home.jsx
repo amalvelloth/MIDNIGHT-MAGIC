@@ -8,10 +8,7 @@ function Home() {
         <div className="hero-home">
           <h1 className="mb-4">
             Welcome to{" "}
-            <span style={{ color: "white", fontWeight: "bold" }}>
-              MIDNIGHT MAGIC
-            </span>{" "}
-            as the premier partner in creating unforgettable events.
+            <span className="bold-white">MIDNIGHT MAGIC</span> as the premier partner in creating unforgettable events.
           </h1>
           <p>
             We specialize in crafting extraordinary events that leave a
@@ -22,9 +19,13 @@ function Home() {
             our services, meet our team, and let's create unforgettable moments
             together.
           </p>
+          <h1 className="mt-5 text-white">Why choose us ?</h1>
+          <div className="box">
+            
+          </div>
         </div>
       </section>
-      <section></section>
+      {/* Add more sections as needed */}
     </div>
   );
 }

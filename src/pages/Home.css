@@ -1,10 +1,30 @@
 .container {
-  height: 100vh;
-  justify-content: center;
-  align-items: center; 
+  position: relative;
+  margin: 0;
+  width: 100vw;
 }
 
-.hero-home h1{
+.hero-home{
+  padding-top: 20rem;
+  background-image: url("../assets/blurry-gradient-haikei.png");
+  background-size: cover;
+}
+
+.bold-white {
+  color: white;
+  font-weight: bold;
+}
+
+.hero-home h1 {
   color: #c3ccd3;
   text-align: start;
 }
+
+.box {
+  height: 300px;
+  width: 50%;
+  background-color: #c3ccd3;
+  border-radius: 1rem;
+}
+
+

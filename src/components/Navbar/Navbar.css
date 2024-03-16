@@ -45,7 +45,9 @@ body {
   }
   .navbar.is-open {
     background-color: rgba(0, 0, 0, 0.8);
+    height: 50%;
   }
+
   .navbar-icon {
     font-size: 1.7rem;
   }

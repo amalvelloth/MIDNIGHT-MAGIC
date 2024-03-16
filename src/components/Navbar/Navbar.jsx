@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top ${
+      className={`navbar navbar-expand-lg align-items-start fixed-top ${
         isMenuOpen ? "is-open" : ""
       }`}
     >
