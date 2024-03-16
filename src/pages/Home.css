@@ -1,18 +1,21 @@
-.container {
+.container-home {
   position: relative;
   margin: 0;
-  width: 100vw;
-}
-
-.hero-home{
-  padding-top: 20rem;
+  width: 100%;
+  padding-top: 10rem;
   background-image: url("../assets/blurry-gradient-haikei.png");
   background-size: cover;
 }
 
+section {
+  padding: 20px;
+}
+
+
 .bold-white {
   color: white;
   font-weight: bold;
+  font-family: 'varela round';
 }
 
 .hero-home h1 {
@@ -21,10 +24,16 @@
 }
 
 .box {
-  height: 300px;
-  width: 50%;
-  background-color: #c3ccd3;
+  height: 100%;
+  width: 100%;
+  background-color: #242425;
   border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
