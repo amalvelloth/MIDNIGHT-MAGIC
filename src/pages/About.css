@@ -1,11 +1,11 @@
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero {
-    text-align: center;
-  }
-  
+.container-about {
+  position: relative;
+  width: 100%;
+  padding-top: 8rem;
+  background-image: url("../assets/blurry-gradient-haikei-2.png");
+  background-size: cover;
+}
+
+.about-section1 {
+  padding: 20px;
+}

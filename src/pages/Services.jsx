@@ -1,9 +1,9 @@
 import React from 'react'
-import './Services'
+import './Services.css'
 
 function Services() {
   return (
-    <div className="container">
+    <div className="container-services">
         <section>
           <div className="hero">
             <h1>SERVICES</h1>

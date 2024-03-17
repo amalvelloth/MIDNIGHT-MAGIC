@@ -1,0 +1,8 @@
+.container-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/blurry-gradient-haikei-3.png");
+  background-size: cover;
+}
