@@ -3,14 +3,15 @@ import "./Home.css";
 import organiseSVG from "../assets/organise.svg";
 import eventSVG from "../assets/event.svg";
 import shakehandSVG from "../assets/shakehand.svg";
+import cardimg from "../assets/night_party_event1.jpg"
 
 function Home() {
   return (
     <div className="container-home">
       <section className="home-section1">
         <div className="row">
-          <div className="hero-home col-md-6">
-            <h1 className="mb-4">
+          <div className="hero-home d-flex flex-column justify-content-center col-md-6">
+            <h1 className="mb-4 ">
               Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
               the premier partner in creating unforgettable events.
             </h1>
@@ -22,8 +23,8 @@ function Home() {
               lasting impression.
             </p>
           </div>
-          <div className="d-flex align-items-center justify-content-center col-md-6">
-            <h1><br/><br/>Images here<br/><br/><br/><br/></h1>
+          <div className="d-flex p-3 align-items-center justify-content-center col-md-6">
+            <div className="card"><img src={cardimg} alt="" /></div>
           </div>
         </div>
       </section>

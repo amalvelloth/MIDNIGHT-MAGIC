@@ -98,6 +98,19 @@
   transform: translate3d(100%, 0, 0);
  }
 
+ .card {
+  padding: 0.2rem;
+  background: linear-gradient(aqua, #330ed9);
+  border: none;
+  border-radius: 1rem;
+}
+
+.card img {
+  border-radius: 1rem;
+}
+
+
+
 
 @media (max-width: 576px) {
   .sm-box {
