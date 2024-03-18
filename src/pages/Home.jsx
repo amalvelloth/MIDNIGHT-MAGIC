@@ -8,17 +8,27 @@ function Home() {
   return (
     <div className="container-home">
       <section className="home-section1">
-        <div className="hero-home">
-          <h1 className="mb-4">
-            Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as the
-            premier partner in creating unforgettable events.
-          </h1>
-          <p>
-            With a passion for excellence and an unwavering commitment to
-            delivering seamless experiences, we are your go-to event management
-            experts. From corporate gatherings to milestone celebrations, we
-            specialize in crafting events that leave a lasting impression.
-          </p>
+        <div className="row">
+          <div className="hero-home col-md-6">
+            <h1 className="mb-4">
+              Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
+              the premier partner in creating unforgettable events.
+            </h1>
+            <p>
+              With a passion for excellence and an unwavering commitment to
+              delivering seamless experiences, we are your go-to event
+              management experts. From corporate gatherings to milestone
+              celebrations, we specialize in crafting events that leave a
+              lasting impression.
+            </p>
+          </div>
+          <div className="d-flex align-items-center justify-content-center col-md-6">
+            <h1><br/><br/>Images here<br/><br/><br/><br/></h1>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="p-3">
           <h5 className="mt-5 text-white fw-light">How it works ?</h5>
           <div className="box">
             <div className="custom-row d-flex">
@@ -29,7 +39,11 @@ function Home() {
                 </h1>
                 <div className="d-flex">
                   <button className="home-message-btn my-3">
-                    <a href="tel:8281578305" style={{textDecoration:'none'}}><span><h6 className="m-0">Call 8281578305</h6></span></a>
+                    <a href="tel:8281578305" style={{ textDecoration: "none" }}>
+                      <span>
+                        <h6 className="m-0">Call 8281578305</h6>
+                      </span>
+                    </a>
                   </button>
                 </div>
               </div>
@@ -86,6 +100,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       {/* Add more sections as needed */}
     </div>
   );

@@ -104,3 +104,9 @@
     padding-bottom: 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
