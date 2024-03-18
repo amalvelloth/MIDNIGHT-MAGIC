@@ -3,7 +3,12 @@ import "./Home.css";
 import organiseSVG from "../assets/organise.svg";
 import eventSVG from "../assets/event.svg";
 import shakehandSVG from "../assets/shakehand.svg";
-import cardimg from "../assets/night_party_event1.jpg"
+import cardimg from "../assets/night_party_event1.jpg";
+import cardimg2 from "../assets/night_party_event2.jpg";
+import cardimg3 from "../assets/night_party_event3.jpg";
+import { Carousel } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function Home() {
   return (
@@ -23,11 +28,38 @@ function Home() {
               lasting impression.
             </p>
           </div>
+          
           <div className="d-flex p-3 align-items-center justify-content-center col-md-6">
-            <div className="card"><img src={cardimg} alt="" /></div>
+            <div className="card">
+            <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={cardimg}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={cardimg2}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={cardimg3}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+            </div>
           </div>
+          
         </div>
       </section>
+
       <section>
         <div className="p-3">
           <h5 className="mt-5 text-white fw-light">How it works ?</h5>
