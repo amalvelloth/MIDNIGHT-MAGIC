@@ -8,7 +8,7 @@ import cardimg2 from "../assets/night_party_event2.jpg";
 import cardimg3 from "../assets/night_party_event3.jpg";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import balloons from "../assets/balloons.svg";
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
               Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
               the premier partner in creating unforgettable events.
             </h1>
-            <p>
+            <p style={{zIndex:'1'}}>
               With a passion for excellence and an unwavering commitment to
               delivering seamless experiences, we are your go-to event
               management experts. From corporate gatherings to milestone
@@ -28,44 +28,43 @@ function Home() {
               lasting impression.
             </p>
           </div>
-          
+
           <div className="d-flex p-3 align-items-center justify-content-center col-md-6">
             <div className="card">
-            <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={cardimg}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={cardimg2}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={cardimg3}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={cardimg}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={cardimg2}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={cardimg3}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
-          
         </div>
       </section>
 
-      <section>
-        <div className="p-3">
-          <h5 className="mt-5 text-white fw-light">How it works ?</h5>
+      <section className="home-section2">
+        <div className="p-3 ">
           <div className="box">
             <div className="custom-row d-flex">
               <div className="container-box1 p-3 col-md-4 col-sm-6">
+                <h5 className="text-white fw-light">How it works ?</h5>
                 <h1>
                   Share Ideas.
                   <br /> Our Event Organizers do for you
@@ -131,6 +130,8 @@ function Home() {
               </div>
             </div>
           </div>
+          <span><img src={balloons} style={{width:'200px'}} alt="" /></span>
+
         </div>
       </section>
 

@@ -10,7 +10,6 @@
   padding: 20px;
 }
 
-
 .bold-white {
   color: white;
   font-weight: bold;
@@ -23,12 +22,14 @@
 }
 
 .box {
+  position: relative;
   height: 100%;
   width: 100%;
   background-color: #242425;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
+  z-index: 1;
 }
 
 .box:hover {
@@ -109,7 +110,17 @@
   border-radius: 1rem;
 }
 
+.home-section2 {
+  position: relative;
+}
 
+.home-section2 span img {
+  position: absolute;
+  margin-left: -120px;
+  top: -80px;
+  bottom: 0;
+  content: "";
+}
 
 @media (max-width: 576px) {
   .sm-box {
