@@ -65,7 +65,7 @@ function Home() {
             <div className="custom-row d-flex">
               <div className="container-box1 p-3 col-md-4 col-sm-6">
                 <h5 className="text-white fw-light">How it works ?</h5>
-                <h1>
+                <h1 style={{color: '#c3ccd3'}}>
                   Share Ideas.
                   <br /> Our Event Organizers do for you
                 </h1>
