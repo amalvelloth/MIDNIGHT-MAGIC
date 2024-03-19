@@ -27,9 +27,10 @@ function About() {
       </section>
       <section className="about-section2">
         <div>
-          <h1>Our Expertise:</h1>
+          <u><h1 className="pb-3">Our Expertise</h1></u>
+          <h1>Corporate Events:</h1>
           <p>
-            Corporate Events: Elevate your corporate image with meticulously
+            Elevate your corporate image with meticulously
             planned and executed events. From conferences and seminars to
             team-building activities, we ensure a flawless experience that
             aligns with your brand and objectives.
