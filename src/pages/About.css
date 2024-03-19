@@ -3,11 +3,13 @@
   width: 100%;
   background-image: url("../assets/blurry-gradient-haikei-2.png");
   background-size: cover;
+  
 }
 
 
 
 .parallax {
+  padding-top: 5rem;
   position: relative;
   background-image: url("../assets/aboutUs.png");
   min-height: 500px; 
