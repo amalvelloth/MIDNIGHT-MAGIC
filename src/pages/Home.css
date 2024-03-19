@@ -132,4 +132,12 @@
   .row {
     flex-direction: column-reverse;
   }
+
+  .home-section2 {
+    padding : 50px 0px;
+  }
+
+  .home-section2 span img {
+    top: -30px;
+  }
 }
