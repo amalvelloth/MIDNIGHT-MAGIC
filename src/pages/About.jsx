@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="container-about">
       <section className="about-section1">
-        <div className="hero-about">
+        <div className="parallax">
           <h1>
             <u>ABOUT US</u>
           </h1>
@@ -25,29 +25,33 @@ function About() {
           </p>
         </div>
       </section>
-      <h1>Our Expertise:</h1>
-      <p>
-        Corporate Events: Elevate your corporate image with meticulously planned
-        and executed events. From conferences and seminars to team-building
-        activities, we ensure a flawless experience that aligns with your brand
-        and objectives.
-      </p>
+      <section className="about-section2">
+        <div>
+          <h1>Our Expertise:</h1>
+          <p>
+            Corporate Events: Elevate your corporate image with meticulously
+            planned and executed events. From conferences and seminars to
+            team-building activities, we ensure a flawless experience that
+            aligns with your brand and objectives.
+          </p>
 
-      <h1>Graduations:</h1>
-      <p>
-        Celebrate academic achievements with elegance and style. Our team
-        orchestrates graduation ceremonies that capture the essence of
-        accomplishment, creating cherished memories for graduates and their
-        families.
-      </p>
+          <h1>Graduations:</h1>
+          <p>
+            Celebrate academic achievements with elegance and style. Our team
+            orchestrates graduation ceremonies that capture the essence of
+            accomplishment, creating cherished memories for graduates and their
+            families.
+          </p>
 
-      <h1>Special Occasions:</h1>
-      <p>
-        Whether it's an anniversary, product launch, or any other special
-        occasion, we thrive on turning your vision into reality. Our attention
-        to detail ensures that every moment is crafted with precision and
-        creativity.
-      </p>
+          <h1>Special Occasions:</h1>
+          <p>
+            Whether it's an anniversary, product launch, or any other special
+            occasion, we thrive on turning your vision into reality. Our
+            attention to detail ensures that every moment is crafted with
+            precision and creativity.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
