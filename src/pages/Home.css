@@ -99,11 +99,21 @@
   transform: translate3d(100%, 0, 0);
  }
 
+ .card-container {
+  display: flex;
+  padding: 1rem;
+ }
  .card {
-  padding: 0.2rem;
-  background: linear-gradient(aqua, #330ed9);
+  top: 8px;
+  padding: 0 0.2 0.2 0.2;
+  background: linear-gradient(200deg, aqua, #330ed9);
   border: none;
   border-radius: 1rem;
+}
+
+.carousel {
+  bottom: 8px;
+  right: 8px;
 }
 
 .card img {
@@ -139,5 +149,9 @@
 
   .home-section2 span img {
     top: -30px;
+  }
+
+  .card-container {
+    padding-bottom: 3rem;
   }
 }

@@ -29,7 +29,7 @@ function Home() {
             </p>
           </div>
 
-          <div className="d-flex p-3 align-items-center justify-content-center col-md-6">
+          <div className="card-container align-items-center justify-content-center col-md-6">
             <div className="card">
               <Carousel>
                 <Carousel.Item>
