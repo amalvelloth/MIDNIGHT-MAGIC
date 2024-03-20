@@ -3,23 +3,26 @@
   width: 100%;
   background-image: url("../assets/blurry-gradient-haikei-2.png");
   background-size: cover;
-  
 }
 
+.inner1 {
+  margin: 0 auto;
+  max-width: 1060px;
+  width: 100%;
+}
 
-
-.parallax {
+.about-section1-parallax {
   padding-top: 5rem;
   position: relative;
   background-image: url("../assets/aboutUs.png");
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.parallax::before {
+.about-section1-parallax::before {
   content: "";
   position: absolute;
   top: 0;
@@ -30,12 +33,19 @@
   z-index: 1;
 }
 
-.parallax > * {
+.about-section1-parallax > * {
   padding: 20px;
   position: relative;
   z-index: 2;
 }
+
 .about-section2 {
   padding: 20px;
   margin-top: 20px;
+}
+
+.inner2 {
+  margin: 0 auto;
+  max-width: 1060px;
+  width: 100%;
 }
