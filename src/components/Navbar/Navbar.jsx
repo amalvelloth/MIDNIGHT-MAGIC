@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/MIDNIGHT MAGIC LOGO-01-min.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { HiOutlineX } from "react-icons/hi"
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +27,11 @@ function Navbar() {
           onClick={toggleMenu}
           style={{ border: "none", outline: "none" }}
         >
-          <HiOutlineMenuAlt3 className="navbar-icon" />
+          {isMenuOpen ? (
+        <HiOutlineX className="navbar-icon" /> // Close icon when menu is open
+      ) : (
+        <HiOutlineMenuAlt3 className="navbar-icon" /> // Menu icon when menu is closed
+      )}
         </button>
         <div
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
