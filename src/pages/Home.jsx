@@ -20,7 +20,7 @@ function Home() {
               Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
               the premier partner in creating unforgettable events.
             </h1>
-            <p style={{zIndex:'1'}}>
+            <p style={{zIndex:'1',lineHeight:'2'}}>
               With a passion for excellence and an unwavering commitment to
               delivering seamless experiences, we are your go-to event
               management experts. From corporate gatherings to milestone
@@ -65,7 +65,7 @@ function Home() {
             <div className="custom-row d-flex">
               <div className="container-box1 p-3 col-md-4 col-sm-6">
                 <h5 className="text-white fw-light">How it works ?</h5>
-                <h1 style={{color: '#c3ccd3'}}>
+                <h1 className="fw-bold" style={{color: '#c3ccd3'}}>
                   Share Ideas.
                   <br /> Our Event Organizers do for you
                 </h1>

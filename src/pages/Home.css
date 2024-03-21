@@ -2,6 +2,14 @@
   font-family: varela-round;
   src: url(../assets/fonts/VarelaRound-Regular.ttf);
 }
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-light;
+  src: url(../assets/fonts/Poppins-Light.ttf);
+}
 
 .container-home {
   position: relative;
@@ -20,9 +28,15 @@
   font-family: varela-round;
 }
 
+.hero-home {
+  font-family: poppins;
+}
+
 .hero-home h1 {
+  font-family: poppins;
   color: #c3ccd3;
   text-align: start;
+
 }
 
 .box {
@@ -64,6 +78,7 @@
   border-radius: 10px;
   overflow: hidden;
   background: aquamarine;
+  font-family: poppins-light;
 }
 
 .home-message-btn span {
@@ -126,6 +141,7 @@
 
 .home-section2 {
   position: relative;
+  font-family: poppins;
 }
 
 .home-section2 span img {

@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-toggler:focus {
-  outline: none; /* Remove the outline on focus */
+  outline: none;
 }
 
 .navbar {
@@ -29,7 +29,7 @@ body {
 
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus {
-  color: aquamarine; /* Change color on hover and focus */
+  color: aquamarine;
 }
 
 
