@@ -191,7 +191,7 @@ function Contact() {
                   placeholder=""
                   required=""
                 />
-                <span>Messege</span>
+                <span>Message</span>
               </label>
               <div className="d-flex">
                 <button className="message-btn">

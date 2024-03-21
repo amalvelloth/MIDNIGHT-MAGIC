@@ -1,3 +1,8 @@
+@font-face {
+  font-family: varela-round;
+  src: url(../assets/fonts/VarelaRound-Regular.ttf);
+}
+
 .container-home {
   position: relative;
   width: 100%;
@@ -11,9 +16,8 @@
 }
 
 .bold-white {
-  color: white;
   font-weight: bold;
-  font-family: 'varela round';
+  font-family: varela-round;
 }
 
 .hero-home h1 {
