@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-family: poppins-light;
+  font-family: poppins-extralight;
   src: url(../assets/fonts/Poppins-ExtraLight.ttf);
 }
 
@@ -77,9 +77,12 @@
 }
 
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
-.notification {
+.black-card {
   display: flex;
   flex-direction: column;
   isolation: isolate;
@@ -87,7 +90,7 @@
   width: 18rem;
   background: #29292c;
   border-radius: 1rem;
-  margin: 20px;
+  margin: 10px;
   padding: 20PX;
   overflow: hidden;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -96,7 +99,7 @@
   --color: #32a6ff
 }
 
-.notification:before {
+.black-card:before {
   position: absolute;
   content: "";
   inset: 0.0625rem;
@@ -105,7 +108,7 @@
   z-index: 2
 }
 
-.notification:after {
+.black-card:after {
   position: absolute;
   content: "";
   width: 0.25rem;
@@ -116,36 +119,36 @@
   z-index: 4;
 }
 
-.notification:hover:after {
+.black-card:hover:after {
   transform: translateX(0.15rem)
 }
 
-.notititle {
+.card-title {
   color: var(--color);
   padding: 0.65rem 0.25rem 0.4rem 1.25rem;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   transition: transform 300ms ease;
   z-index: 5;
 }
 
-.notification:hover .notititle {
+.black-card:hover .card-title {
   transform: translateX(0.15rem)
 }
 
-.notibody {
+.card-body {
   color: #99999d;
   padding: 0 1.25rem;
   transition: transform 300ms ease;
   z-index: 5;
 }
 
-.notification:hover .notibody {
+.black-card:hover .card-body {
   transform: translateX(0.25rem)
 }
 
-.notiglow,
-.notiborderglow {
+.glow,
+.borderglow {
   position: absolute;
   width: 20rem;
   height: 20rem;
@@ -155,32 +158,22 @@
   transition: opacity 300ms ease;
 }
 
-.notiglow {
+.glow {
   z-index: 3;
 }
 
-.notiborderglow {
+.borderglow {
   z-index: 1;
 }
 
-.notification:hover .notiglow {
-  opacity: 0.1
+.black-card:hover .glow {
+  opacity: 0.2
 }
 
-.notification:hover .notiborderglow {
-  opacity: 0.1
+.black-card:hover .borderglow {
+  opacity: 0.2
 }
 
-.note {
-  color: var(--color);
-  position: fixed;
-  top: 80%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 0.9rem;
-  width: 75%;
-}
 
 @media (max-width: 768px) {
   .inner1 h1 {
@@ -193,5 +186,3 @@
     font-size: 2.5rem;
   }
 }
-
-

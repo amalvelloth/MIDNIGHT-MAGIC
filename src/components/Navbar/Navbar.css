@@ -33,18 +33,15 @@ body {
 }
 
 
-
-
 @media (max-width: 992px) {
   .navbar-nav {
     width: 100%;
     display: flex;
-    justify-content: center;
     text-align: center;
     font-size: 1.3rem;
   }
   .navbar.is-open {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     height: 320px;
   }
 
@@ -55,7 +52,33 @@ body {
     color: transparent;
   }
 
+  .navbar {
+    transition: height 0.4s ease;
+    height: 70px;
+    overflow: hidden;
+  }
+  
+  .is-open {
+    height: 200px;
+  }
+
+  .nav-open {
+    animation: slideDown 0.4s ease;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
 }
+
+
 
 
 
