@@ -57,6 +57,55 @@ function About() {
           </article>
         </div>
       </section>
+      <section className="about-section3">
+        <div className="inner3">
+          <h1 style={{ fontFamily: "poppins-light" }}>Why choose us ?</h1>
+          <div className="row col-md-12 col-sm-6">
+            <div class="notification">
+              <div class="notiglow"></div>
+              <div class="notiborderglow"></div>
+              <div class="notititle">Professional Excellence</div>
+              <div class="notibody">
+                Our experienced team brings a wealth of knowledge and expertise
+                to the table, ensuring your event is executed with precision and
+                professionalism.
+              </div>
+            </div>
+            <div class="notification">
+              <div class="notiglow"></div>
+              <div class="notiborderglow"></div>
+              <div class="notititle">Personalized Service</div>
+              <div class="notibody">
+                We understand that each event is unique. Our approach is
+                tailored to your specific needs, ensuring a personalized and
+                memorable experience for all involved.
+              </div>
+            </div>
+          </div>
+          <div className="row col-md-12 col-sm-6">
+            <div class="notification">
+              <div class="notiglow"></div>
+              <div class="notiborderglow"></div>
+              <div class="notititle">Attention to Detail</div>
+              <div class="notibody">
+                The success of an event lies in the details. We meticulously
+                plan and execute every aspect, leaving nothing to chance and
+                ensuring a flawless event.
+              </div>
+            </div>
+            <div class="notification">
+              <div class="notiglow"></div>
+              <div class="notiborderglow"></div>
+              <div class="notititle">Seamless Execution</div>
+              <div class="notibody">
+                Our commitment to excellence extends to the seamless execution
+                of your event. Sit back and enjoy the occasion while we handle
+                the logistics and coordination.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
