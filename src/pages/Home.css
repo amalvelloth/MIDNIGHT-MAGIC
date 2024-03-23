@@ -140,6 +140,7 @@
 }
 
 .home-section2 {
+
   position: relative;
   font-family: poppins;
 }
@@ -164,7 +165,7 @@
   }
 
   .home-section2 {
-    padding : 50px 0px;
+    padding-top: 50px;
   }
 
   .home-section2 span img {

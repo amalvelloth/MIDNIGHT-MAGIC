@@ -17,9 +17,9 @@ function Navbar() {
         isMenuOpen ? "is-open" : ""
       }`} 
     >
-      <div className="container-fluid  px-md-5 px-sm-5">
+      <div className="container-fluid px-md-5 px-sm-5">
         <a className="navbar-brand" href="#">
-          <img className="px-1" style={{ width: "80px" }} src={logo} alt="" />
+          <img className="px-1" style={{ width: "80px"}} src={logo} alt="" />
         </a>
         <button
           className="navbar-toggler"
@@ -36,11 +36,13 @@ function Navbar() {
         <div
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarNav"
+          
         >
           <ul
             className={`navbar-nav ms-auto justify-content-center ${
               isMenuOpen ? "nav-open" : ""
             }`}
+            
           >
             <li className="nav-item">
               <a className="nav-link" href="/home">

@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function About() {
+  useEffect(()=> {
+    Aos.init();
+  },[])
   return (
     <div className="container-about">
       <section className="about-section1-parallax">
@@ -28,7 +33,7 @@ function About() {
           <div style={{ paddingBottom: "13px", fontFamily: "poppins-medium" }}>
             <h1>Our Expertise</h1>
           </div>
-          <article className="pb-3">
+          <article className="pb-3" data-aos="fade-right">
             <h1>Corporate Events:</h1>
             <p>
               Elevate your corporate image with meticulously planned and
@@ -37,7 +42,7 @@ function About() {
               brand and objectives.
             </p>
           </article>
-          <article className="pb-3">
+          <article className="pb-3" data-aos="fade-left">
             <h1>Graduations:</h1>
             <p>
               Celebrate academic achievements with elegance and style. Our team
@@ -46,7 +51,7 @@ function About() {
               their families.
             </p>
           </article>
-          <article className="pb-3">
+          <article className="pb-3" data-aos="fade-right">
             <h1>Special Occasions:</h1>
             <p>
               Whether it's an anniversary, product launch, or any other special
@@ -62,7 +67,7 @@ function About() {
           <h1 style={{ fontFamily: "poppins-extralight" }}>Why choose us ?</h1>
           <div className="container m-0">
             <div className="row">
-              <div class="black-card col-md-2">
+              <div class="black-card col-md-2" data-aos="fade-up">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Professional Excellence</div>
@@ -72,7 +77,7 @@ function About() {
                   precision and professionalism.
                 </div>
               </div>
-              <div class="black-card">
+              <div class="black-card" data-aos="fade-up">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Personalized Service</div>
@@ -82,7 +87,7 @@ function About() {
                   memorable experience for all involved.
                 </div>
               </div>
-              <div class="black-card">
+              <div class="black-card" data-aos="fade-up">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Attention to Detail</div>
@@ -92,7 +97,7 @@ function About() {
                   ensuring a flawless event.
                 </div>
               </div>
-              <div class="black-card">
+              <div class="black-card" data-aos="fade-up">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Seamless Execution</div>
