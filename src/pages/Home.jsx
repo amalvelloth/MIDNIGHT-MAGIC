@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import organiseSVG from "../assets/organise.svg";
 import eventSVG from "../assets/event.svg";
@@ -9,8 +9,13 @@ import cardimg3 from "../assets/night_party_event3.jpg";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import balloons from "../assets/balloons.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <div className="container-home">
       <section className="home-section1">
@@ -20,7 +25,11 @@ function Home() {
               Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
               the premier partner in creating unforgettable events.
             </h1>
-            <p style={{zIndex:'1',lineHeight:'2'}}>
+            <p
+              style={{ zIndex: "1", lineHeight: "2" }}
+              data-aos="fade"
+              data-aos-duration="2000"
+            >
               With a passion for excellence and an unwavering commitment to
               delivering seamless experiences, we are your go-to event
               management experts. From corporate gatherings to milestone
@@ -65,7 +74,7 @@ function Home() {
             <div className="custom-row d-flex">
               <div className="container-box1 p-3 col-md-4 col-sm-6">
                 <h5 className="text-white fw-light">How it works ?</h5>
-                <h1 className="fw-bold" style={{color: '#c3ccd3'}}>
+                <h1 className="fw-bold">
                   Share Ideas.
                   <br /> Our Event Organizers do for you
                 </h1>
@@ -81,7 +90,8 @@ function Home() {
               </div>
               <div className="container-box2 d-flex justify-content-center p-3 col-md-8 col">
                 <div className="row align-items-center">
-                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center">
+                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <div
                       className="circle"
                       style={{ backgroundColor: "#f3ce01" }}
@@ -98,7 +108,8 @@ function Home() {
                     </span>{" "}
                     {/* Short word */}
                   </div>
-                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center">
+                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <div
                       className="circle"
                       style={{ backgroundColor: "#DE287D" }}
@@ -114,7 +125,8 @@ function Home() {
                     </span>{" "}
                     {/* Short word */}
                   </div>
-                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center">
+                  <div className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <div
                       className="circle"
                       style={{ backgroundColor: "#0172EF" }}
@@ -130,8 +142,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <span><img src={balloons} style={{width:'200px'}} alt="" /></span>
-
+          <span>
+            <img src={balloons} style={{ width: "200px" }} alt="" data-aos="fade-up-right" />
+          </span>
         </div>
       </section>
 

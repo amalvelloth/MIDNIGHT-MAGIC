@@ -12,7 +12,7 @@ function About() {
       <section className="about-section1-parallax">
         <div className="inner1">
           <h1>About Us</h1>
-          <p data-aos="fade">
+          <p data-aos="fade" data-aos-duration="2000">
             At Midnight Magic, we are more than event planners – we are your
             partners in crafting extraordinary moments. With a steadfast
             commitment to excellence and a passion for creating lasting

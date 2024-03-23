@@ -24,6 +24,7 @@
   background-image: url("../assets/blurry-gradient-haikei-2.png");
   background-size: cover;
   font-family: poppins;
+  overflow-y: hidden;
 }
 
 .inner1,.inner2,.inner3 {
@@ -48,6 +49,7 @@
   background-size: cover;
   display: flex;
   align-items: center;
+
 }
 
 .about-section1-parallax::before {
@@ -124,7 +126,7 @@
 }
 
 .card-title {
-  color: var(--color);
+  color: aquamarine;
   padding: 0.65rem 0.25rem 0.4rem 1.25rem;
   font-weight: 500;
   font-size: 1.5rem;
@@ -178,6 +180,9 @@
 @media (max-width: 768px) {
   .inner1 h1 {
     font-size: 3rem;
+  }
+  .inner2 {
+    overflow-x: hidden;
   }
 }
 

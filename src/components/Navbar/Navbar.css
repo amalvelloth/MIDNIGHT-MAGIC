@@ -43,7 +43,7 @@ body {
   }
   .navbar.is-open {
     background-color: rgba(0, 0, 0, 0.85);
-    height: 260px;
+    height: 265px;
   }
 
   .navbar-icon {

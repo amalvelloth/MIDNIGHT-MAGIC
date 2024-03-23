@@ -18,7 +18,7 @@ function Navbar() {
       }`} 
     >
       <div className="container-fluid px-md-5 px-sm-5">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="./home">
           <img className="px-1" style={{ width: "80px"}} src={logo} alt="" />
         </a>
         <button
@@ -28,9 +28,9 @@ function Navbar() {
           style={{ border: "none", outline: "none" }}
         >
           {isMenuOpen ? (
-            <HiOutlineX className="navbar-icon" /> // Close icon when menu is open
+            <HiOutlineX className="navbar-icon" /> 
           ) : (
-            <HiOutlineMenuAlt3 className="navbar-icon" /> // Menu icon when menu is closed
+            <HiOutlineMenuAlt3 className="navbar-icon" /> 
           )}
         </button>
         <div

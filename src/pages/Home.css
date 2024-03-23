@@ -17,6 +17,7 @@
   padding-top: 5rem;
   background-image: url("../assets/blurry-gradient-haikei.png");
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .home-section1 {
@@ -48,10 +49,15 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   z-index: 1;
+  overflow-y: hidden;
 }
 
 .box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fw-bold {
+  color: #c3ccd3;
 }
 
 .circle {
