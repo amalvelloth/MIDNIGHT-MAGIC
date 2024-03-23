@@ -5,14 +5,14 @@ import 'aos/dist/aos.css'
 
 function About() {
   useEffect(()=> {
-    Aos.init();
+    Aos.init({duration: 1500});
   },[])
   return (
     <div className="container-about">
       <section className="about-section1-parallax">
         <div className="inner1">
           <h1>About Us</h1>
-          <p>
+          <p data-aos="fade">
             At Midnight Magic, we are more than event planners – we are your
             partners in crafting extraordinary moments. With a steadfast
             commitment to excellence and a passion for creating lasting
@@ -42,7 +42,7 @@ function About() {
               brand and objectives.
             </p>
           </article>
-          <article className="pb-3" data-aos="fade-left">
+          <article className="pb-3" data-aos="fade-right">
             <h1>Graduations:</h1>
             <p>
               Celebrate academic achievements with elegance and style. Our team
@@ -67,7 +67,8 @@ function About() {
           <h1 style={{ fontFamily: "poppins-extralight" }}>Why choose us ?</h1>
           <div className="container m-0">
             <div className="row">
-              <div class="black-card col-md-2" data-aos="fade-up">
+              <div class="black-card" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Professional Excellence</div>
@@ -77,7 +78,8 @@ function About() {
                   precision and professionalism.
                 </div>
               </div>
-              <div class="black-card" data-aos="fade-up">
+              <div class="black-card" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Personalized Service</div>
@@ -87,7 +89,8 @@ function About() {
                   memorable experience for all involved.
                 </div>
               </div>
-              <div class="black-card" data-aos="fade-up">
+              <div class="black-card" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Attention to Detail</div>
@@ -97,7 +100,8 @@ function About() {
                   ensuring a flawless event.
                 </div>
               </div>
-              <div class="black-card" data-aos="fade-up">
+              <div class="black-card" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Seamless Execution</div>
