@@ -38,7 +38,8 @@ function Home() {
             </p>
           </div>
 
-          <div className="card-container align-items-center justify-content-center col-md-6">
+          <div className="card-container align-items-center justify-content-center col-md-6" data-aos="fade"
+              data-aos-duration="2000">
             <div className="card">
               <Carousel>
                 <Carousel.Item>
