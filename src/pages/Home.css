@@ -15,6 +15,7 @@
   position: relative;
   width: 100%;
   padding-top: 5rem;
+  padding-bottom: 2rem;
   background-image: url("../assets/blurry-gradient-haikei.png");
   background-size: cover;
   overflow-y: hidden;

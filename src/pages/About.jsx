@@ -4,12 +4,12 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 
 function About() {
-  useEffect(()=> {
-    Aos.init({duration: 1500});
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <div className="container-about">
-      <section className="about-section1-parallax">
+      <section className="about-section1-parallax" id="about">
         <div className="inner1">
           <h1>About Us</h1>
           <p data-aos="fade" data-aos-duration="2000">
@@ -68,7 +68,7 @@ function About() {
           <div className="container m-0">
             <div className="row">
               <div class="black-card" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+                data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Professional Excellence</div>
@@ -79,7 +79,7 @@ function About() {
                 </div>
               </div>
               <div class="black-card" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+                data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Personalized Service</div>
@@ -90,7 +90,7 @@ function About() {
                 </div>
               </div>
               <div class="black-card" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+                data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Attention to Detail</div>
@@ -101,7 +101,7 @@ function About() {
                 </div>
               </div>
               <div class="black-card" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+                data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
                 <div class="borderglow"></div>
                 <div class="card-title">Seamless Execution</div>
@@ -111,6 +111,7 @@ function About() {
                   the logistics and coordination.
                 </div>
               </div>
+              <div className="vertical-line"></div>
             </div>
           </div>
         </div>

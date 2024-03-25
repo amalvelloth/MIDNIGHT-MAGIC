@@ -18,7 +18,7 @@ function Home() {
   }, []);
   return (
     <div className="container-home">
-      <section className="home-section1">
+      <section className="home-section1" id="home">
         <div className="row">
           <div className="hero-home d-flex flex-column justify-content-center col-md-6">
             <h1 className="mb-4 ">
