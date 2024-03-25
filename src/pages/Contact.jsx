@@ -204,7 +204,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="pt-5 pb-3">
+      <section className="pt-5" style={{paddingBottom:'1.8rem'}}>
         <div className="custom-row align-items-center">
           <div className="container-s1 col-md-6 col-sm-12">
             <h1 className="p-3">

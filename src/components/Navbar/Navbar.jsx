@@ -55,7 +55,7 @@ function Navbar() {
                 href="#"
                 onClick={() => scrollToSection("home")}
               >
-                Home
+                <span>Home</span>
               </a>
             </li>
             <li className="nav-item">
@@ -64,7 +64,7 @@ function Navbar() {
                 href="#about"
                 onClick={() => scrollToSection("about")}
               >
-                About
+                <span>About</span>
               </a>
             </li>
             <li className="nav-item">
@@ -73,7 +73,7 @@ function Navbar() {
                 href="#contact"
                 onClick={() => scrollToSection("contact")}
               >
-                Contact
+                <span>Contact</span>
               </a>
             </li>
           </ul>
