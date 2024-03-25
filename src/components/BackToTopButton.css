@@ -1,0 +1,24 @@
+.backtotop-btn {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.arrow {
+    width: 15px;
+    margin-left: 5px;
+    animation: arrowAnimation 1s infinite alternate;
+}
+
+@keyframes arrowAnimation {
+    0% {
+      transform: translateY(-2px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }

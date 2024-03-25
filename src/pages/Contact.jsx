@@ -8,6 +8,7 @@ import "./Contact.css";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
+import BackToTopButton from '../components/BackToTopButton';
 
 function Contact() {
   return (
@@ -203,7 +204,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="pt-5 pb-5">
+      <section className="pt-5 pb-3">
         <div className="custom-row align-items-center">
           <div className="container-s1 col-md-6 col-sm-12">
             <h1 className="p-3">
@@ -239,6 +240,10 @@ function Contact() {
                 <br />
               </h1>
             </div>
+            <div>
+      {/* Your main content */}
+      <BackToTopButton />
+    </div>
           </div>
         </div>
       </section>
