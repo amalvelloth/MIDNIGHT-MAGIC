@@ -146,6 +146,12 @@
   border-radius: 1rem;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Adjust width as needed */
+    opacity: 0.1; /* Adjust opacity as needed */
+}
+
 .home-section2 {
 
   position: relative;
