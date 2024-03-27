@@ -28,43 +28,61 @@ function About() {
           </p>
         </div>
       </section>
-      <section className="about-section2">
+      <section className="about-section2 pb-0">
         <div className="inner2">
           <div style={{ paddingBottom: "13px", fontFamily: "poppins-medium" }}>
             <h1>Our Expertise</h1>
           </div>
-          <article className="pb-3" data-aos="fade-right">
-            <h1>Corporate Events:</h1>
-            <p>
-              Elevate your corporate image with meticulously planned and
-              executed events. From conferences and seminars to team-building
-              activities, we ensure a flawless experience that aligns with your
-              brand and objectives.
-            </p>
-          </article>
-          <article className="pb-3" data-aos="fade-right">
-            <h1>Graduations:</h1>
-            <p>
-              Celebrate academic achievements with elegance and style. Our team
-              orchestrates graduation ceremonies that capture the essence of
-              accomplishment, creating cherished memories for graduates and
-              their families.
-            </p>
-          </article>
-          <article className="pb-3" data-aos="fade-right">
-            <h1>Special Occasions:</h1>
-            <p>
-              Whether it's an anniversary, product launch, or any other special
-              occasion, we thrive on turning your vision into reality. Our
-              attention to detail ensures that every moment is crafted with
-              precision and creativity.
-            </p>
-          </article>
+          <div className="row">
+            <article className="pb-5 col">
+              <div className="expertise-card1">
+                <div className="card-overlay"></div>
+                <div className="card-content">
+                  <h1>Corporate Events:</h1>
+                  <p className="m-0" data-aos="fade" data-aos-duration="2000" style={{ fontFamily: "poppins-extralight" }}>
+                    Elevate your corporate image with meticulously planned and
+                    executed events. From conferences and seminars to team-building
+                    activities, we ensure a flawless experience that aligns with your
+                    brand and objectives.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article className="pb-5 col">
+              <div className="expertise-card2">
+                <div className="card-overlay"></div>
+                <div className="card-content">
+                  <h1>Graduations:</h1>
+                  <p className="m-0" data-aos="fade" data-aos-duration="2000" style={{ fontFamily: "poppins-extralight" }}>
+                    Celebrate academic achievements with elegance and style. Our team
+                    orchestrates graduation ceremonies that capture the essence of
+                    accomplishment, creating cherished memories for graduates and
+                    their families.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article className="pb-5 col">
+              <div className="expertise-card3">
+                <div className="card-overlay"></div>
+                <div className="card-content">
+                  <h1>Special Occasions:</h1>
+                  <p className="m-0" data-aos="fade" data-aos-duration="2000" style={{ fontFamily: "poppins-extralight" }}>
+                    Whether it's an anniversary, product launch, or any other special
+                    occasion, we thrive on turning your vision into reality. Our
+                    attention to detail ensures that every moment is crafted with
+                    precision and creativity.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
       <section className="about-section3 b">
-        <div className="inner3">
+        <div className="inner3 ">
           <h1 style={{ fontFamily: "poppins-extralight" }}>Why choose us ?</h1>
+
           <div className="container m-0">
             <div className="row">
               <div class="black-card" data-aos="fade-up"
@@ -114,6 +132,10 @@ function About() {
               <div className="vertical-line"></div>
             </div>
           </div>
+          <div className="vertical-line"></div>
+
+
+
         </div>
       </section>
     </div>

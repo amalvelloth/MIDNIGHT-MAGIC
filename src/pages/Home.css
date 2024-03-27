@@ -148,8 +148,8 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 50px; /* Adjust width as needed */
-    opacity: 0.1; /* Adjust opacity as needed */
+    width: 50px;
+    opacity: 0.1;
 }
 
 .home-section2 {
@@ -187,5 +187,11 @@
 
   .card-container {
     padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1600px) {
+  .home-section1 {
+    padding-bottom: 5rem;
   }
 }
