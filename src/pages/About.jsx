@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./About.css";
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import Timeline from "../components/Timeline";
 
 function About() {
   useEffect(() => {
@@ -83,8 +84,8 @@ function About() {
         <div className="inner3 ">
           <h1 style={{ fontFamily: "poppins-extralight" }}>Why choose us ?</h1>
 
-          <div className="container m-0">
-            <div className="row">
+          <div className="container py-3 m-0">
+            {/*<div className="row">
               <div class="black-card" data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                 <div class="glow"></div>
@@ -129,11 +130,9 @@ function About() {
                   the logistics and coordination.
                 </div>
               </div>
-              <div className="vertical-line"></div>
-            </div>
+            </div>*/}
           </div>
-          <div className="vertical-line"></div>
-
+          <Timeline />
 
 
         </div>

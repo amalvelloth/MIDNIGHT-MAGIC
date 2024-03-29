@@ -1,0 +1,106 @@
+.vertical-timeline-element-content {
+  position: relative;
+  background: black;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: none;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 10px solid black;
+}
+
+.vertical-timeline-element {
+  margin: 0px;
+}
+
+.vertical-timeline.vertical-timeline--two-columns:before {
+  width: 2px;
+}
+
+
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-content {
+    margin-left: 0;
+    padding: 1.5em;
+    width: 44%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content,
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
+    .vertical-timeline-element-content {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline.vertical-timeline--two-columns:before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+    top: 24px;
+    left: 100%;
+    transform: rotate(180deg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content-arrow,
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
+    .vertical-timeline-element-content-arrow {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    transform: rotate(0);
+  }
+}
+
+
+
+
+.card-title {
+  color: aquamarine;
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+
+.card-body {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
