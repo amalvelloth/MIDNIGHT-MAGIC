@@ -1,3 +1,19 @@
+.card-title {
+  color: aquamarine;
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+
+.card-body {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+
 .vertical-timeline-element-content {
   position: relative;
   background: black;
@@ -79,13 +95,20 @@
     left: 50%;
     margin-left: -30px;
   }
-}
 
-@media only screen and (min-width: 768px) {
+  .vertical-timeline-element:nth-of-type(2) .vertical-timeline-element-icon:before {
+    transform: translateX(400%);
+  }
+  .vertical-timeline-element:nth-of-type(4) .vertical-timeline-element-icon:before {
+    transform: translateX(400%);
+  }
+
   .vertical-timeline.vertical-timeline--two-columns:before {
     left: 50%;
     margin-left: -2px;
   }
+
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -94,9 +117,7 @@
     left: 100%;
     transform: rotate(180deg);
   }
-}
 
-@media only screen and (min-width: 768px) {
   .vertical-timeline--two-columns
     .vertical-timeline-element.vertical-timeline-element--right
     .vertical-timeline-element-content-arrow,
@@ -124,21 +145,6 @@
     transform: translateY(-50%);
     transform: translateX(300%);
   }
+  
 }
 
-
-
-.card-title {
-  color: aquamarine;
-  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-
-.card-body {
-  color: #99999d;
-  padding: 0 1.25rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-}
