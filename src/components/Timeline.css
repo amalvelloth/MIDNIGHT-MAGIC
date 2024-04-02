@@ -5,7 +5,6 @@
   font-size: 1.5rem;
 }
 
-
 .card-body {
   color: #99999d;
   padding: 0 1.25rem;
@@ -21,25 +20,23 @@
   padding: 1em;
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0);
-  transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease, box-shadow 0.7s ease;
 }
 
 .vertical-timeline-element-content:hover {
   border: 1px rgb(47, 189, 255) solid;
+  box-shadow: 0 0 17px rgb(47, 189, 255); /* Box shadow with the same color */
 }
+
 
 .vertical-timeline-element-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   border-radius: 100%;
-}
-
-.vertical-timeline-element-icon:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: -20px;
-  width: 20px; /* Adjust the width of the line as needed */
-  height: 2px; /* Adjust the height of the line as needed */
-  background-color: rgb(255, 255, 255); /* Adjust the color of the line as needed */
+  background-color: aquamarine;
+  box-shadow: none;
 }
 
 .vertical-timeline-element-content-arrow {
@@ -58,6 +55,9 @@
   width: 2px;
 }
 
+span.vertical-timeline-element-date {
+  padding: 0;
+}
 
 
 
@@ -138,12 +138,18 @@
     content: '';
     position: absolute;
     top: 50%;
-    right: -20px; /* Adjust the position of the line */
-    width: 20px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height of the line */
-    background-color: rgb(255, 255, 255); /* Adjust the color of the line */
+    right: -20px;
+    width: 20px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
     transform: translateY(-50%);
     transform: translateX(300%);
+  }
+
+  .vertical-timeline-element-icon {
+    height: 60px;
+    width: 60px;
+    left: -11px;
   }
   
 }

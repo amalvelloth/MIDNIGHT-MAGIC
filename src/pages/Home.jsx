@@ -23,7 +23,7 @@ function Home() {
           <div className="row">
             <div className="hero-home d-flex flex-column justify-content-center col-md-6">
               <h1 className="mb-4 ">
-                Welcome to <span className="bold-white">MIDNIGHT MAGIC</span> as
+                Welcome to <span className="animated-title">MIDNIGHT MAGIC</span> as
                 the premier partner in creating unforgettable events.
               </h1>
               <p
