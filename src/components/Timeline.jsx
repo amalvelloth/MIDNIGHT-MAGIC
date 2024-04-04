@@ -1,5 +1,8 @@
 import React from "react";
-import { VerticalTimeline,VerticalTimelineElement } from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import ProfessionalExcellence from "../assets/professional-excellence.svg";
 import PersonalizedService from "../assets/personalized-service.svg";
@@ -8,13 +11,15 @@ import SeamlessExecution from "../assets/seamless-execution.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Timeline.css";
-
+import { Fade } from "react-bootstrap";
 
 function Timeline() {
 
+
+  
   return (
     <div className="timeline">
-      <VerticalTimeline lineColor="white" animate={false}>
+      <VerticalTimeline>
         <div id="" class="vertical-timeline-elemtent vertical-timeline-element">
           <span class="vertical-timeline-element-icon bounce-in">
             <img
@@ -23,7 +28,7 @@ function Timeline() {
               alt=""
             />
           </span>
-          <div class="vertical-timeline-element-content bounce-in">
+          <div className="vertical-timeline-element-content">
             <div class="vertical-timeline-element-content-arrow"></div>
             <div class="card-title">Professional Excellence</div>
             <div class="card-body">
@@ -36,9 +41,9 @@ function Timeline() {
 
         <div id="" class="vertical-timeline-elemtent vertical-timeline-element">
           <span class="vertical-timeline-element-icon bounce-in">
-            <img src={PersonalizedService} style={{width:'40px'}} alt="" />
+            <img src={PersonalizedService} style={{ width: "40px" }} alt="" />
           </span>
-          <div class="vertical-timeline-element-content bounce-in">
+          <div class="vertical-timeline-element-content">
             <div class="vertical-timeline-element-content-arrow"></div>
             <div class="card-title">Personalized Service</div>
             <div class="card-body">
@@ -51,9 +56,10 @@ function Timeline() {
 
         <div id="" class="vertical-timeline-elemtent vertical-timeline-element">
           <span class="vertical-timeline-element-icon bounce-in">
-            <img src={AttentiontoDetail} style={{width:'40px'}} alt="" />
+            <div class="horizontal-line"></div>
+            <img src={AttentiontoDetail} style={{ width: "40px" }} alt="" />
           </span>
-          <div class="vertical-timeline-element-content bounce-in">
+          <div class="vertical-timeline-element-content">
             <div class="vertical-timeline-element-content-arrow"></div>
             <div class="card-title">Attention to Detail</div>
             <div class="card-body">
@@ -66,9 +72,10 @@ function Timeline() {
 
         <div id="" class="vertical-timeline-elemtent vertical-timeline-element">
           <span class="vertical-timeline-element-icon bounce-in">
-            <img src={SeamlessExecution} style={{width:'40px'}} alt="" />
+            <div class="horizontal-line"></div>
+            <img src={SeamlessExecution} style={{ width: "40px" }} alt="" />
           </span>
-          <div class="vertical-timeline-element-content bounce-in">
+          <div class="vertical-timeline-element-content">
             <div class="vertical-timeline-element-content-arrow"></div>
             <div class="card-title">Seamless Execution</div>
             <div class="card-body">
