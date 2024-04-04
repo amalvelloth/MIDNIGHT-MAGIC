@@ -16,25 +16,34 @@ function Contact() {
       <div className="hero">
         <Carousel>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={nightPartyImage1}
-              alt="First slide"
-            />
+            <div className="image-container">
+              <img
+                className="d-block w-100"
+                src={nightPartyImage1}
+                alt="First slide"
+              />
+              <div className="overlay"></div>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={nightPartyImage2}
-              alt="Second slide"
-            />
+            <div className="image-container">
+              <img
+                className="d-block w-100"
+                src={nightPartyImage2}
+                alt="Second slide"
+              />
+              <div className="overlay"></div>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={nightPartyImage3}
-              alt="Third slide"
-            />
+            <div className="image-container">
+              <img
+                className="d-block w-100"
+                src={nightPartyImage3}
+                alt="Third slide"
+              />
+              <div className="overlay"></div>
+            </div>
           </Carousel.Item>
         </Carousel>
         <div className="hero-content mb-2">
@@ -204,7 +213,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="pt-5" style={{ paddingBottom: '1.8rem' }}>
+      <section className="pt-5" style={{ paddingBottom: "1.8rem" }}>
         <div className="custom-row align-items-center">
           <div className="container-s1 col-md-6 col-sm-12">
             <h1 className="p-3">
@@ -233,7 +242,6 @@ function Contact() {
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.7150566424752!2d76.75123287488147!3d8.812817291240124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e73ca7a83cf1%3A0x624456898b01624!2sMIDNIGHT%20MAGIC%20ENTERTAINMENTS!5e0!3m2!1sen!2sin!4v1711393622460!5m2!1sen!2sin"
-
                     allowFullscreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
@@ -242,7 +250,6 @@ function Contact() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
       <ScrollToTop />

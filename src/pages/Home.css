@@ -35,7 +35,7 @@
   font-size: larger;
   font-weight: bolder;
   font-family: varela-round;
-	background: linear-gradient(90deg,white,white,#6340ff ,aqua, white);
+	background: linear-gradient(90deg,white,white,#6340ff,#6340ff ,aqua, white);
 	background-size: 400%;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;

@@ -10,7 +10,7 @@
     height: 50px;
     border-radius: 50%;
     border: 2px solid white;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.152);
     display: flex;
     align-items: center;
     justify-content: center;
