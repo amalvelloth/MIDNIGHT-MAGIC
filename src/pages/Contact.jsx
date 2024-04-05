@@ -234,7 +234,7 @@ function Contact() {
               <div className="d-flex align-items-center">
                 <FaPhoneAlt className="location-card-icon" />
                 &nbsp;&nbsp;
-                <h5 className="fs-6">8281578305 830493004</h5>
+                <h5 className="fs-6">8281578305 8304930045</h5>
               </div>
             </div>
             <div className="location-card bg-black mt-3">

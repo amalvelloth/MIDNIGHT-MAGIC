@@ -41,8 +41,11 @@ function Home() {
                 celebrations, we specialize in crafting events that leave a
                 lasting impression.
               </p>
-
-              <button className="contact-now-btn mt-2"><h6 className="mb-0">CONTACT NOW</h6></button>
+              <button 
+                 className="contact-now-btn mt-2"><h6 className="mb-0"><a
+                 href="#contact"
+                 onClick={() => scrollToSection("contact")}
+               >CONTACT NOW</a></h6></button>
             </div>
 
             <div
@@ -125,7 +128,7 @@ function Home() {
                       <span className="mt-2 text-center">
                         <h6>We love to hear about event</h6>
                       </span>{" "}
-                      {/* Short word */}
+
                     </div>
                     <div
                       className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center"
@@ -145,7 +148,7 @@ function Home() {
                       <span className="mt-2 text-center">
                         <h6>Plan and discuss with us</h6>
                       </span>{" "}
-                      {/* Short word */}
+
                     </div>
                     <div
                       className="sm-box d-flex flex-column align-items-center col-md-4 col-sm-12 justify-content-center"
@@ -165,7 +168,7 @@ function Home() {
                       <span className="mt-2 text-center">
                         <h6>We organize Event Easily</h6>
                       </span>{" "}
-                      {/* Short word */}
+
                     </div>
                   </div>
                 </div>
@@ -183,7 +186,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Add more sections as needed */}
     </div>
   );
 }
