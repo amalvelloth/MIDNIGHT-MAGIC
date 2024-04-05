@@ -10,6 +10,10 @@
   font-family: poppins-light;
   src: url(../assets/fonts/Poppins-Light.ttf);
 }
+@font-face {
+  font-family: poppins-bold;
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
 
 .container-home {
   position: relative;
@@ -35,21 +39,29 @@
   font-size: larger;
   font-weight: bolder;
   font-family: varela-round;
-	background: linear-gradient(90deg,white,white,#6340ff,#6340ff ,aqua, white);
-	background-size: 400%;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	animation: animate 5s reverse;
+  background: linear-gradient(
+    90deg,
+    white,
+    white,
+    #6340ff,
+    #6340ff,
+    aqua,
+    white
+  );
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 5s reverse;
 }
 
 @keyframes animate {
-	0% {
-		background-position: 0%;
-	}
+  0% {
+    background-position: 0%;
+  }
 
-	100% {
-		background-position: 400%;
-	}
+  100% {
+    background-position: 400%;
+  }
 }
 
 .hero-home {
@@ -60,7 +72,6 @@
   font-family: poppins;
   color: #c3ccd3;
   text-align: start;
-
 }
 
 .box {
@@ -85,7 +96,7 @@
 
 .circle {
   display: flex;
-  width: 100px; 
+  width: 100px;
   height: 100px;
   background-color: white;
   border-radius: 50%;
@@ -116,42 +127,42 @@
   transition: color 0.4s;
   font-weight: 400;
   font-size: 16px;
- }
- 
- .home-message-btn:hover span,
- .home-message-btn:hover {
+}
+
+.home-message-btn:hover span,
+.home-message-btn:hover {
   color: black;
   border-color: transparent;
- }
- 
- .home-message-btn::before,
- .home-message-btn::after {
+}
+
+.home-message-btn::before,
+.home-message-btn::after {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
- }
- 
- .home-message-btn::before {
+}
+
+.home-message-btn::before {
   content: "";
   background: #242425;
   width: 120%;
   left: -10%;
   transform: skew(30deg);
   transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
- }
- 
- .home-message-btn:hover::before {
-  transform: translate3d(100%, 0, 0);
- }
+}
 
- .card-container {
+.home-message-btn:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.card-container {
   display: flex;
   padding: 1rem;
- }
- .card {
+}
+.card {
   top: 8px;
   padding: 0 0.2 0.2 0.2;
   background: linear-gradient(200deg, aqua, #330ed9);
@@ -170,12 +181,11 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 50px;
-    opacity: 0.1;
+  width: 50px;
+  opacity: 0.1;
 }
 
 .home-section2 {
-
   position: relative;
   font-family: poppins;
 }
@@ -186,6 +196,45 @@
   top: -80px;
   bottom: 0;
   content: "";
+}
+
+.contact-now-btn {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  background-size: 200% 100%;
+  box-shadow: 0px 4px 50px rgb(0, 0, 0);
+  background-image: linear-gradient(145deg, #ff53eb, #4b4bff, #5de7ff);
+  transition: 0.5s;
+}
+
+.contact-now-btn:hover {
+  background-position: 99%;
+}
+
+.contact-now-btn:active {
+  transform: scale(0.9);
+}
+
+.contact-now-btn h6 {
+  font-family: poppins-bold;
+}
+
+@media (min-width: 768px) {
+  .home-section1 {
+    height: 100vh;
+    max-height: 1000px;
+    overflow-y: auto;
+  }
+
+  .container-home {
+    padding-top: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -209,6 +258,11 @@
 
   .card-container {
     padding-bottom: 3rem;
+  }
+
+  .contact-now-btn {
+    width:150px;
+    height: 45px;
   }
 }
 
