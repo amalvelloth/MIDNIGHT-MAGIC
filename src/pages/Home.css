@@ -43,8 +43,8 @@
     90deg,
     white,
     white,
-    #6340ff,
-    #6340ff,
+    #6060ff,
+    #3375ca,
     aqua,
     white
   );
@@ -245,15 +245,26 @@
     transition: 0.5s;
   }
 
+  .contact-now-btn {
+    text-decoration: none;
+  }
+  .contact-now-btn:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+  }
+
+}
+
+@media (min-width: 577px) and (max-width: 1600px) {
+  .home-section1 {
+    padding-bottom: 5rem;
+  }
 }
 
 @media (max-width: 576px) {
   .sm-box {
     padding-bottom: 12px;
-  }
-
-  span img {
-    margin-top: 2rem;
   }
 
   .contact-now-btn {
@@ -271,6 +282,17 @@
   .contact-now-btn a {
     text-decoration: none;
     color: white;
+  }
+  .contact-now-btn {
+    text-decoration: none;
+  }
+  .contact-now-btn:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+  }
+  .home-section1 {
+    padding-bottom: 5rem;
   }
 }
 

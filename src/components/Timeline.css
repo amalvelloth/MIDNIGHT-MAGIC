@@ -19,12 +19,12 @@
   padding: 1em;
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0);
-  transition: border-color 0.5s ease, box-shadow 0.7s ease;
+  transition: border-color 0.4s ease, box-shadow 0.7s ease;
 }
 
 .vertical-timeline-element-content:hover {
   border: 1px rgb(47, 189, 255) solid;
-  box-shadow: 0 0 17px rgb(47, 189, 255);
+  box-shadow: 0 0 18px rgb(47, 189, 255);
 }
 
 
