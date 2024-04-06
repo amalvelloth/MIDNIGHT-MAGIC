@@ -20,7 +20,7 @@ function Home() {
     <div className="container-home">
       <div className="inner">
         <section
-          className="home-section1 align-items-center d-flex pt-0"
+          className="home-section1 align-items-center justify-content-center d-flex pt-0"
           id="home"
         >
           <div className="row">

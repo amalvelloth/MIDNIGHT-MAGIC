@@ -198,12 +198,9 @@
   content: "";
 }
 
-
-
 .contact-now-btn a {
   text-decoration: none;
   color: white;
-
 }
 
 .contact-now-btn:hover {
@@ -218,17 +215,28 @@
   font-family: poppins-bold;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 1024px) {
   .home-section1 {
     height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-section1 {
     max-height: 1000px;
     overflow-y: auto;
+    max-width: 2000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .container-home {
     padding-top: 4rem;
   }
-  
 }
 
 @media (min-width: 577px) {
@@ -253,7 +261,6 @@
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
   }
-
 }
 
 @media (min-width: 577px) and (max-width: 1600px) {
@@ -314,7 +321,7 @@
   }
 
   .contact-now-btn {
-    width:150px;
+    width: 150px;
     height: 45px;
   }
 }
